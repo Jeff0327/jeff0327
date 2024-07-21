@@ -24,11 +24,11 @@
   <img src="https://raw.githubusercontent.com/kristerkari/react-native-svg-transformer/master/images/react-native-logo.png" alt="react native" width="40" height="40"/>
 </p>
 
-## 🦀 최근 Rust 학습 프로젝트
+## 🦀 최근 학습 프로젝트 Rust
 
 [![Rust Start](https://img.shields.io/badge/Rust-Start-orange?style=for-the-badge&logo=rust)](https://github.com/YourUsername/rustStart)
 
-최근에 Rust 언어를 학습하고 있습니다. 이 저장소에서 제 학습 과정과 프로젝트를 확인할 수 있습니다.
+요즘 공부중인것 Rust!
 
 - 🔧 기본 문법 학습
 - 🧮 알고리즘 문제 풀이
