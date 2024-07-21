@@ -25,7 +25,7 @@
   <a href="https://nodejs.org" target="_blank" rel="noreferrer" style="text-decoration: none; margin: 5px; background-color:white">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/>
   </a>
-  <a href="https://nextjs.org/" target="_blank" rel="noreferrer" style="text-decoration: none; margin: 5px;">
+  <a href="https://nextjs.org/" target="_blank" rel="noreferrer" style="text-decoration: none; margin: 5px; background-color:white">
     <img src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" alt="nextjs" width="40" height="40"/>
   </a>
   <a href="https://www.postgresql.org" target="_blank" rel="noreferrer" style="text-decoration: none; margin: 5px;">
