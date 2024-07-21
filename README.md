@@ -1,5 +1,12 @@
 ![Header](https://capsule-render.vercel.app/api?type=waving&color=000000&height=300&section=header&text=Next.js%20Developer&fontSize=90&animation=fadeIn&fontAlignY=38&desc=Building%20the%20Web%20of%20Tomorrow&descAlignY=51&descAlign=62&fontColor=ffffff)
 
+<p align="center">
+  <img src="https://img.shields.io/badge/-Server%20Side%20Rendering-black?style=for-the-badge" alt="Server Side Rendering"/>
+  <img src="https://img.shields.io/badge/-Static%20Site%20Generation-black?style=for-the-badge" alt="Static Site Generation"/>
+  <img src="https://img.shields.io/badge/-API%20Routes-black?style=for-the-badge" alt="API Routes"/>
+  <img src="https://img.shields.io/badge/-Fast%20Refresh-black?style=for-the-badge" alt="Fast Refresh"/>
+</p>
+
 ## 기술 스택
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=TypeScript&logoColor=white)
