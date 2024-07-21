@@ -30,7 +30,6 @@
 
 ![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=jeff0327&show_icons=true&theme=radical&count_private=true&cache_seconds=86400)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jeff0327&layout=compact&theme=radical&cache_seconds=86400)
 
 ## 💻 My Top Languages
 
