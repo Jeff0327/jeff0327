@@ -44,6 +44,8 @@
 ### Company Site
 [![Company](https://img.shields.io/badge/Project-Company-blue?style=for-the-badge&logo=github)](https://github.com/jeff0327/company)
 [![Website](https://img.shields.io/badge/Visit-Website-green?style=for-the-badge&logo=vercel)](https://comjeff.site)
+[![Company](https://img.shields.io/badge/Project-Company-blue?style=for-the-badge&logo=github)](https://github.com/jeff0327/travel)
+[![Website](https://img.shields.io/badge/Visit-Website-green?style=for-the-badge&logo=vercel)](https://traveljeff.site)
 
 ## 🦀 최근 학습 프로젝트 Rust
 
