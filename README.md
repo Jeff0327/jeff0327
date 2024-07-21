@@ -1,3 +1,4 @@
+![Header](https://capsule-render.vercel.app/api?type=waving&color=auto&height=300&section=header&text=Rust%20Journey&fontSize=90&animation=fadeIn&fontAlignY=38&desc=Learning%20and%20Growing%20with%20Rust&descAlignY=51&descAlign=62)
 ## 기술 스택
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=TypeScript&logoColor=white)
