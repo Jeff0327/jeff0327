@@ -32,6 +32,11 @@
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jeff0327&layout=compact&theme=radical&cache_seconds=86400)
 
+## 💻 My Top Languages
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=YourGitHubUsername&layout=compact&theme=vision-friendly-dark&hide=html,css&langs_count=6&custom_title=My%20Top%20Languages&card_width=445&title_color=f1e05a)](https://github.com/anuraghazra/github-readme-stats)
+
+[![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black&labelColor=F7DF1E)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 ## 🦀 최근 학습 프로젝트 Rust
 
 [![Rust Start](https://img.shields.io/badge/Rust-Start-orange?style=for-the-badge&logo=rust)](https://github.com/jeff0327/startRust)
