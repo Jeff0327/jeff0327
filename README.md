@@ -1,4 +1,4 @@
-![Header](https://capsule-render.vercel.app/api?type=waving&color=000000&height=300&section=header&text=Web%20Developer&fontSize=90&animation=fadeIn&fontAlignY=38&desc=Building%20the%20Web%20of%20Tomorrow&descAlignY=51&descAlign=62&fontColor=ffffff)
+![Header](https://capsule-render.vercel.app/api?type=waving&color=000000&height=300&section=header&text=Web%20Developer&fontSize=90&animation=fadeIn&fontAlignY=38descAlignY=51&descAlign=62&fontColor=ffffff)
 
 
 ## 기술 스택
