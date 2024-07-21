@@ -24,6 +24,6 @@
   <img src="https://raw.githubusercontent.com/kristerkari/react-native-svg-transformer/master/images/react-native-logo.png" alt="react native" width="40" height="40"/>
 </p>
 
-![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=YourGitHubUsername&show_icons=true&theme=radical&count_private=true&cache_seconds=86400)
+![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=jeff0327&show_icons=true&theme=radical&count_private=true&cache_seconds=86400)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=YourGitHubUsername&layout=compact&theme=radical&cache_seconds=86400)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jeff0327&layout=compact&theme=radical&cache_seconds=86400)
