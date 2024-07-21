@@ -1,10 +1,5 @@
 ![Header](https://capsule-render.vercel.app/api?type=waving&color=000000&height=300&section=header&text=Next.js%20Developer&fontSize=90&animation=fadeIn&fontAlignY=38&desc=Building%20the%20Web%20of%20Tomorrow&descAlignY=51&descAlign=62&fontColor=ffffff)
 
-<p align="center">
-  <a href="https://nextjs.org" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg" alt="nextjs" width="100" height="100"/>
-  </a>
-</p>
 ## 기술 스택
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=TypeScript&logoColor=white)
