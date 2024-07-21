@@ -39,6 +39,12 @@
 
 [![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black&labelColor=F7DF1E)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
+## 🚀 주요 프로젝트
+
+### Company Site
+[![Company](https://img.shields.io/badge/Project-Company-blue?style=for-the-badge&logo=github)](https://github.com/jeff0327/company)
+[![Website](https://img.shields.io/badge/Visit-Website-green?style=for-the-badge&logo=vercel)](https://comjeff.site)
+
 ## 🦀 최근 학습 프로젝트 Rust
 
 [![Rust Start](https://img.shields.io/badge/Rust-Start-orange?style=for-the-badge&logo=rust)](https://github.com/jeff0327/startRust)
