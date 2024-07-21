@@ -35,7 +35,4 @@
 
 요즘 공부중인것 Rust!
 
-## 🦀 Rust 학습 활동
-
-[![Rust Start](https://img.shields.io/badge/Rust-Start-orange?style=for-the-badge&logo=rust)](https://github.com/YourUsername/rustStart)
 
