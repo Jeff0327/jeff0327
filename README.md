@@ -50,9 +50,10 @@
 [![Company](https://img.shields.io/badge/Project-Company-blue?style=for-the-badge&logo=github)](https://github.com/jeff0327/travel)
 [![Website](https://img.shields.io/badge/Visit-Website-green?style=for-the-badge&logo=vercel)](https://traveljeff.site)
 
+## 요즘 관심사
+- Unity WebGL with Nextjs
+- Threejs
 
-## 🦀 최근 학습 프로젝트 Rust
-
+## 🦀 학습 예정 프로젝트 Rust
 [![Rust Start](https://img.shields.io/badge/Rust-Start-orange?style=for-the-badge&logo=rust)](https://github.com/jeff0327/startRust)
 
-요즘 공부중인것 Rust!
