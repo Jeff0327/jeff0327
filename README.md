@@ -1,4 +1,4 @@
-![Header](https://capsule-render.vercel.app/api?type=waving&color=000000&height=300&section=header&text=Web%20Developer&fontSize=90&animation=fadeIn&fontAlignY=38)
+![Header](https://capsule-render.vercel.app/api?type=waving&color=FFFFFF&height=300&section=header&text=Web%20Developer&fontSize=90&animation=fadeIn&fontAlignY=38)
 
 
 ## 기술 스택
