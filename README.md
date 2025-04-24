@@ -32,10 +32,9 @@
 ![Postman](https://img.shields.io/badge/-Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
 ![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github&logoColor=white)
 ![GitLab](https://img.shields.io/badge/-GitLab-FCA121?style=flat-square&logo=gitlab&logoColor=white)
-![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=jeff0327&show_icons=true&theme=radical&count_private=true&cache_seconds=86400)
-
 
 ## 💻 My Top Languages
+![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=jeff0327&show_icons=true&theme=radical&count_private=true&cache_seconds=86400)
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jeff0327&layout=compact&theme=vision-friendly-dark&hide=html,Xtend,GAP,XSLT,Batchfile,Shell,Perl&langs_count=8&custom_title=My%20Top%20Languages&card_width=445&title_color=f1e05a)](https://github.com/anuraghazra/github-readme-stats)
 
