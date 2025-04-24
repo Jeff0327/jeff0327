@@ -45,3 +45,7 @@
 ### QR 코드 생성기
 [![QR Code Generator](https://img.shields.io/badge/Project-QR_Code_Generator-blue?style=for-the-badge&logo=github)](https://github.com/jeff0327/qr-generator)
 [![Website](https://img.shields.io/badge/Visit-Website-green?style=for-the-badge&logo=vercel)](https://qrmake.kr)
+
+### 나의 프로필
+[![Profile](https://img.shields.io/badge/Project-Profile-blue?style=for-the-badge&logo=github)](https://github.com/jeff0327/profile)
+[![Website](https://img.shields.io/badge/Visit-Website-green?style=for-the-badge&logo=vercel)](https://seopseop.shop)
