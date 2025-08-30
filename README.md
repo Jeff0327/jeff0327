@@ -34,7 +34,6 @@
 ![GitLab](https://img.shields.io/badge/-GitLab-FCA121?style=flat-square&logo=gitlab&logoColor=white)
 
 ## 💻 My Top Languages
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jeff0327&layout=compact&theme=vision-friendly-dark&hide=html,Xtend,GAP,XSLT,Batchfile,Shell,Perl&langs_count=8&custom_title=My%20Top%20Languages&card_width=445&title_color=f1e05a&exclude_repo=snapcap)]([https://github.com/anuraghazra/github-readme-stats](https://github.com/Jeff0327/snapcap))
 
 [![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white&labelColor=3178C6)](https://www.typescriptlang.org/)
 
