@@ -2,7 +2,7 @@
 
 <img src="assets/pixel-hero.svg" alt="AI Platform Engineer pixel banner" width="100%"/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=13&pause=1000&color=60A5FA&center=true&vCenter=true&width=760&lines=LLM+serving+on+Kubernetes+(vLLM+%C2%B7+KubeRay);GitOps+platforms+with+ArgoCD+and+CI+gates;Multi-agent+systems+and+RAG+evaluation;Full-stack+with+Next.js+and+FastAPI)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=13&pause=1000&color=60A5FA&center=true&vCenter=true&width=760&lines=LLM+serving+on+Kubernetes+(vLLM+%C2%B7+KubeRay);GitOps+platforms;Multi-agent+systems+and+RAG+evaluation;Full-stack+with+Next.js+and+FastAPI)](https://git.io/typing-svg)
 
 </div>
 
