@@ -1,6 +1,6 @@
 <div align="center">
 
-![Header](https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,100:2563EB&height=220&section=header&text=Jeff0327&fontSize=64&fontColor=FFFFFF&desc=AI%20Platform%20%C2%B7%20LLMOps%20%C2%B7%20Full-Stack%20Engineer&descSize=22&descAlignY=65&animation=fadeIn)
+![Header](https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,100:2563EB&height=220&section=header&text=AI%20Platform%20Engineer&fontSize=56&fontColor=FFFFFF&desc=LLMOps%20%C2%B7%20Agents%20%C2%B7%20Full-Stack&descSize=22&descAlignY=68&animation=fadeIn)
 
 **LLM 서빙 · 에이전트 · MLOps 플랫폼을 "돌아간다고 믿는" 수준이 아니라 "돌아간다고 증명되는" 수준까지 만듭니다.**
 
