@@ -1,8 +1,8 @@
 <div align="center">
 
-![Header](https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,100:2563EB&height=200&section=header&text=AI%20Platform%20Engineer&fontSize=54&fontColor=FFFFFF&desc=LLMOps%20%C2%B7%20Agents%20%C2%B7%20Full-Stack&descSize=22&descAlignY=68&animation=fadeIn)
+<img src="assets/pixel-hero.svg" alt="AI Platform Engineer pixel banner" width="100%"/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=60A5FA&center=true&vCenter=true&width=640&lines=LLM+serving+on+Kubernetes+(vLLM+%C2%B7+KubeRay);GitOps+platforms+with+ArgoCD+and+CI+gates;Multi-agent+systems+and+RAG+evaluation;Full-stack+with+Next.js+and+FastAPI)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=13&pause=1000&color=60A5FA&center=true&vCenter=true&width=760&lines=LLM+serving+on+Kubernetes+(vLLM+%C2%B7+KubeRay);GitOps+platforms+with+ArgoCD+and+CI+gates;Multi-agent+systems+and+RAG+evaluation;Full-stack+with+Next.js+and+FastAPI)](https://git.io/typing-svg)
 
 </div>
 
@@ -12,6 +12,8 @@ I build LLM serving, agent, and MLOps platforms, and I measure them until the nu
 - 🤖 Shipping **LangGraph multi-agent** systems with human-in-the-loop approval, audit trails, and PII masking
 - 🌐 Building the web consoles and APIs around AI services with **Next.js** and **FastAPI**
 - 🔍 Re-measuring recorded numbers before trusting them: a logged 83.8% accuracy turned out to be 78.0% once re-scored
+
+<img src="assets/pixel-divider.svg" width="100%" alt=""/>
 
 ## 👨‍💻 About Me
 
@@ -34,6 +36,8 @@ const me = {
 };
 ```
 
+<img src="assets/pixel-divider.svg" width="100%" alt=""/>
+
 ## 📈 Highlights
 
 | Area | What I did |
@@ -43,6 +47,8 @@ const me = {
 | **RAG & evaluation** | RAGFlow-based RAG, a 460-question golden set, Langfuse traces and scores, and a dedicated LLM judge separated from the serving model |
 | **Agents** | LangGraph supervisor routing, full QA of 41 tools, and a framework port (26 commits) used to make an adoption decision |
 | **Products** | AI blog-automation platform, operator web console, and a 190M-row time-series pipeline |
+
+<img src="assets/pixel-divider.svg" width="100%" alt=""/>
 
 ## 🛠 Tech Stack
 
@@ -115,6 +121,8 @@ const me = {
 
 </details>
 
+<img src="assets/pixel-divider.svg" width="100%" alt=""/>
+
 ## 📊 GitHub Stats
 
 <div align="center">
@@ -124,4 +132,4 @@ const me = {
 
 </div>
 
-![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,100:2563EB&height=100&section=footer)
+<img src="assets/pixel-divider.svg" width="100%" alt=""/>
