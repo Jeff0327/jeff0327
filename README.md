@@ -63,17 +63,6 @@
 
 </details>
 
-## 🚀 Projects
-
-| 프로젝트 | 설명 | 스택 |
-|---|---|---|
-| [**crossImprove_ai**](https://github.com/Jeff0327/crossImprove_ai) | 두 모델이 서로 문제를 주고받으며 공진화하되, **정답은 모델이 아니라 실행이 판결**하는 자기개선 에이전트 루프 | Python · Git · GitHub Actions |
-| [**claude-usage-widget**](https://github.com/Jeff0327/claude-usage-widget) | Claude 플랜 사용량(5시간 세션 / 주간)을 도넛 차트로 보여주는 Windows 상시 위젯. 4개 언어 지원 | Python |
-| [**QR Creator**](https://qrcreator-theta.vercel.app) · [repo](https://github.com/Jeff0327/qrcreator) | 웹 QR 코드 생성기 | Next.js · TypeScript · Vercel |
-| [**snapcap**](https://snapcap-green.vercel.app) · [repo](https://github.com/Jeff0327/snapcap) | 온라인 쇼핑몰 웹페이지 | Next.js · TypeScript · Vercel |
-| [**windsqaure**](https://windsqaure.vercel.app) · [repo](https://github.com/Jeff0327/windsqaure) | 웹 서비스 | Next.js · TypeScript · Vercel |
-| [**chat_macro**](https://github.com/Jeff0327/chat_macro) | 채팅 매크로 프로그램 | Python |
-
 ## 📊 GitHub
 
 <div align="center">
