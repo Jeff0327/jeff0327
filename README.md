@@ -1,74 +1,86 @@
-![Header](https://capsule-render.vercel.app/api?type=waving&color=FFFFFF&height=300&section=header&text=AI%20Platform%20Engineer&fontSize=90&animation=fadeIn&fontAlignY=38)
+<div align="center">
 
+![Header](https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,100:2563EB&height=220&section=header&text=Jeff0327&fontSize=64&fontColor=FFFFFF&desc=AI%20Platform%20%C2%B7%20LLMOps%20%C2%B7%20Full-Stack%20Engineer&descSize=22&descAlignY=65&animation=fadeIn)
 
-## 기술 스택
+**LLM 서빙 · 에이전트 · MLOps 플랫폼을 "돌아간다고 믿는" 수준이 아니라 "돌아간다고 증명되는" 수준까지 만듭니다.**
 
-**AI / LLM** · LLM 서빙(vLLM), 멀티 에이전트(LangGraph), RAG, 평가·관측
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=Python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![LangGraph](https://img.shields.io/badge/-LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
-![vLLM](https://img.shields.io/badge/-vLLM-30A2FF?style=flat-square&logoColor=white)
-![Langfuse](https://img.shields.io/badge/-Langfuse-0A0A0A?style=flat-square&logoColor=white)
-![MLflow](https://img.shields.io/badge/-MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white)
+</div>
 
-**Platform / Infra** · Kubernetes(k3s) GitOps, CI 게이트, 모니터링
-![Kubernetes](https://img.shields.io/badge/-Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
-![ArgoCD](https://img.shields.io/badge/-ArgoCD-EF7B4D?style=flat-square&logo=argo&logoColor=white)
-![Helm](https://img.shields.io/badge/-Helm-0F1689?style=flat-square&logo=helm&logoColor=white)
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Prometheus](https://img.shields.io/badge/-Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
-![Grafana](https://img.shields.io/badge/-Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/-GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![GitLab](https://img.shields.io/badge/-GitLab-FCA121?style=flat-square&logo=gitlab&logoColor=white)
+## 👋 About
 
-**Backend / Data**
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?style=flat-square&logo=PostgreSQL&logoColor=white)
-![Redis](https://img.shields.io/badge/-Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![Elasticsearch](https://img.shields.io/badge/-Elasticsearch-005571?style=flat-square&logo=elasticsearch&logoColor=white)
-![Supabase](https://img.shields.io/badge/-Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
-![Prisma](https://img.shields.io/badge/-Prisma-1B222D?style=flat-square&logo=Prisma&logoColor=white)
-![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&logo=MongoDB&logoColor=white)
-![Firebase](https://img.shields.io/badge/-Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
+- 🧠 GPU 클러스터 위에 **vLLM 서빙 · RAG · 평가 · 관측** 계층을 GitOps로 구축하고 운영합니다.
+- 🤖 **LangGraph 멀티 에이전트**(HITL 승인, 감사 원장, PII 마스킹)와 음성·채팅 상담 에이전트를 PoC부터 배포까지 만들었습니다.
+- 🌐 **Next.js · FastAPI**로 AI 서비스의 웹 콘솔과 API를 직접 만듭니다. 자체 제품도 1인으로 기획부터 운영까지 해 왔습니다.
+- 🔍 기록된 숫자를 그대로 믿지 않고 **다시 재봅니다.** 정답률 83.8%를 재측정해 78.0%로 정정한 적이 있습니다.
 
-**Frontend / Web**
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=TypeScript&logoColor=white)
+## 📈 해 온 일
+
+| 영역 | 내용 |
+|---|---|
+| **Platform** | 수작업 설치 클러스터를 k3s + ArgoCD로 전면 GitOps 전환 (Application 28개 Synced·Healthy), CI 배포 게이트 8종 + 게이트 자기검증 36항목 |
+| **LLM 서빙** | vLLM on KubeRay, 실측 근거로 모델 4회 교체, 모델 적재 221초 → 53초 (4.12배), 노드 간 이미지 전송 87초 → 1초 미만 |
+| **RAG · 평가** | RAGFlow 기반 RAG, 골든셋 460문항 기준선, Langfuse 트레이스·점수, 서빙 모델과 분리한 전용 LLM judge |
+| **Agent** | LangGraph Supervisor 라우팅, 도구 41종 전수 QA, MS Agent Framework 포팅 검증(26커밋) 후 프레임워크 채택 의사결정 |
+| **Product** | AI 블로그 자동화 플랫폼, 딜러용 운영 웹 콘솔, 대용량 시계열 수집·서빙 파이프라인(1.9억 행) |
+
+## 🛠 Tech Stack
+
+**자주 쓰는 도구**
+
+![Python](https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Next.js](https://img.shields.io/badge/-Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/-Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![ArgoCD](https://img.shields.io/badge/-ArgoCD-EF7B4D?style=for-the-badge&logo=argo&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/-Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+
+| 구분 | 스택 |
+|---|---|
+| **AI / LLM** | vLLM · LangGraph · MS Agent Framework · RAGFlow · BGE-M3 · Whisper · LiveKit · MCP · Langfuse · MLflow |
+| **Platform** | Kubernetes(k3s) · ArgoCD · Helm · Kustomize · KubeRay · Kueue · Argo Workflows · Cilium · Docker |
+| **Observability · CI** | Prometheus · Grafana · Loki · Alertmanager · GitLab CI · GitHub Actions · conftest(OPA) · pytest |
+| **Backend · Data** | FastAPI · Node.js · PostgreSQL(pgvector) · Redis · Elasticsearch · MinIO · Supabase · Prisma |
+| **Frontend** | Next.js · React · Tailwind CSS · React Native |
+| **Cloud** | GCP(Vertex AI) · AWS(EC2/S3) · Vercel · Cloudflare · Nginx |
+
+<details>
+<summary>그 외 사용 경험</summary>
+
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=React&logoColor=black)
-![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=Next.js&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/-TailwindCSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
-![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=Node.js&logoColor=white)
-![React Native](https://img.shields.io/badge/-React_Native-61DAFB?style=flat-square&logo=React&logoColor=black)
+![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![Firebase](https://img.shields.io/badge/-Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
 ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-
-**Cloud / Hosting**
-![Vercel](https://img.shields.io/badge/-Vercel-000000?style=flat-square&logo=Vercel&logoColor=white)
-![Nginx](https://img.shields.io/badge/-Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
-![Amazon EC2](https://img.shields.io/badge/-Amazon_EC2-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
-![Amazon S3](https://img.shields.io/badge/-Amazon_S3-569A31?style=flat-square&logo=amazon-s3&logoColor=white)
-![Google Cloud](https://img.shields.io/badge/-Google_Cloud-4285F4?style=flat-square&logo=google-cloud&logoColor=white)
 ![Google API](https://img.shields.io/badge/-Google_API-4285F4?style=flat-square&logo=google&logoColor=white)
 ![Google Analytics](https://img.shields.io/badge/-Google_Analytics-E37400?style=flat-square&logo=google-analytics&logoColor=white)
 ![VMware](https://img.shields.io/badge/-VMware-607078?style=flat-square&logo=vmware&logoColor=white)
 ![Kali Linux](https://img.shields.io/badge/-Kali_Linux-557C94?style=flat-square&logo=kali-linux&logoColor=white)
-
-**Tools**
-![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![Postman](https://img.shields.io/badge/-Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
-![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github&logoColor=white)
 ![WebStorm](https://img.shields.io/badge/-WebStorm-000000?style=flat-square&logo=webstorm&logoColor=white)
+![GitLab](https://img.shields.io/badge/-GitLab-FCA121?style=flat-square&logo=gitlab&logoColor=white)
 
-## 💻 My Top Languages
+</details>
 
-[![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white&labelColor=3178C6)](https://www.typescriptlang.org/)
+## 🚀 Projects
 
-![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=jeff0327&show_icons=true&theme=radical&count_private=true&cache_seconds=86400)
+| 프로젝트 | 설명 | 스택 |
+|---|---|---|
+| [**crossImprove_ai**](https://github.com/Jeff0327/crossImprove_ai) | 두 모델이 서로 문제를 주고받으며 공진화하되, **정답은 모델이 아니라 실행이 판결**하는 자기개선 에이전트 루프 | Python · Git · GitHub Actions |
+| [**claude-usage-widget**](https://github.com/Jeff0327/claude-usage-widget) | Claude 플랜 사용량(5시간 세션 / 주간)을 도넛 차트로 보여주는 Windows 상시 위젯. 4개 언어 지원 | Python |
+| [**QR Creator**](https://qrcreator-theta.vercel.app) · [repo](https://github.com/Jeff0327/qrcreator) | 웹 QR 코드 생성기 | Next.js · TypeScript · Vercel |
+| [**snapcap**](https://snapcap-green.vercel.app) · [repo](https://github.com/Jeff0327/snapcap) | 온라인 쇼핑몰 웹페이지 | Next.js · TypeScript · Vercel |
+| [**windsqaure**](https://windsqaure.vercel.app) · [repo](https://github.com/Jeff0327/windsqaure) | 웹 서비스 | Next.js · TypeScript · Vercel |
+| [**chat_macro**](https://github.com/Jeff0327/chat_macro) | 채팅 매크로 프로그램 | Python |
 
-## 🚀 주요 프로젝트
+## 📊 GitHub
 
-### QR 코드 생성기
-[![QR Code Generator](https://img.shields.io/badge/Project-QR_Code_Generator-blue?style=for-the-badge&logo=github)](https://github.com/Jeff0327/qrcreator)
-[![Website](https://img.shields.io/badge/Visit-Website-green?style=for-the-badge&logo=vercel)](https://qrmake.kr)
+<div align="center">
 
-### 나의 프로필
-[![Website](https://img.shields.io/badge/Visit-Website-green?style=for-the-badge&logo=vercel)](https://seopseop.shop)
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=Jeff0327&show_icons=true&theme=radical&hide_border=true&count_private=true)
+![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Jeff0327&layout=compact&theme=radical&hide_border=true&langs_count=6)
+
+</div>
+
+![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,100:2563EB&height=100&section=footer)
