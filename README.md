@@ -1,31 +1,52 @@
 <div align="center">
 
-![Header](https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,100:2563EB&height=220&section=header&text=AI%20Platform%20Engineer&fontSize=56&fontColor=FFFFFF&desc=LLMOps%20%C2%B7%20Agents%20%C2%B7%20Full-Stack&descSize=22&descAlignY=68&animation=fadeIn)
+![Header](https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,100:2563EB&height=200&section=header&text=AI%20Platform%20Engineer&fontSize=54&fontColor=FFFFFF&desc=LLMOps%20%C2%B7%20Agents%20%C2%B7%20Full-Stack&descSize=22&descAlignY=68&animation=fadeIn)
 
-**LLM 서빙 · 에이전트 · MLOps 플랫폼을 "돌아간다고 믿는" 수준이 아니라 "돌아간다고 증명되는" 수준까지 만듭니다.**
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=60A5FA&center=true&vCenter=true&width=640&lines=LLM+serving+on+Kubernetes+(vLLM+%C2%B7+KubeRay);GitOps+platforms+with+ArgoCD+and+CI+gates;Multi-agent+systems+and+RAG+evaluation;Full-stack+with+Next.js+and+FastAPI)](https://git.io/typing-svg)
 
 </div>
 
-## 👋 About
+I build LLM serving, agent, and MLOps platforms, and I measure them until the numbers hold up.
 
-- 🧠 GPU 클러스터 위에 **vLLM 서빙 · RAG · 평가 · 관측** 계층을 GitOps로 구축하고 운영합니다.
-- 🤖 **LangGraph 멀티 에이전트**(HITL 승인, 감사 원장, PII 마스킹)와 음성·채팅 상담 에이전트를 PoC부터 배포까지 만들었습니다.
-- 🌐 **Next.js · FastAPI**로 AI 서비스의 웹 콘솔과 API를 직접 만듭니다. 자체 제품도 1인으로 기획부터 운영까지 해 왔습니다.
-- 🔍 기록된 숫자를 그대로 믿지 않고 **다시 재봅니다.** 정답률 83.8%를 재측정해 78.0%로 정정한 적이 있습니다.
+- 🔭 Running **vLLM · RAG · evaluation · observability** on a GPU cluster, managed entirely through GitOps
+- 🤖 Shipping **LangGraph multi-agent** systems with human-in-the-loop approval, audit trails, and PII masking
+- 🌐 Building the web consoles and APIs around AI services with **Next.js** and **FastAPI**
+- 🔍 Re-measuring recorded numbers before trusting them: a logged 83.8% accuracy turned out to be 78.0% once re-scored
 
-## 📈 해 온 일
+## 👨‍💻 About Me
 
-| 영역 | 내용 |
+```typescript
+const me = {
+  role: "AI Platform Engineer",
+  languages: ["Python", "TypeScript", "SQL", "Bash"],
+  askMeAbout: [
+    "LLM serving & GPU utilization",
+    "GitOps for ML platforms (k3s + ArgoCD)",
+    "RAG evaluation & LLM-as-a-judge",
+    "Multi-agent orchestration (LangGraph)",
+    "Next.js + FastAPI products",
+  ],
+  principles: [
+    "Measure it again before you trust it.",
+    "Test the test: feed the gate a bad value and see it fail.",
+    "Make every risky change one commit away from rollback.",
+  ],
+};
+```
+
+## 📈 Highlights
+
+| Area | What I did |
 |---|---|
-| **Platform** | 수작업 설치 클러스터를 k3s + ArgoCD로 전면 GitOps 전환 (Application 28개 Synced·Healthy), CI 배포 게이트 8종 + 게이트 자기검증 36항목 |
-| **LLM 서빙** | vLLM on KubeRay, 실측 근거로 모델 4회 교체, 모델 적재 221초 → 53초 (4.12배), 노드 간 이미지 전송 87초 → 1초 미만 |
-| **RAG · 평가** | RAGFlow 기반 RAG, 골든셋 460문항 기준선, Langfuse 트레이스·점수, 서빙 모델과 분리한 전용 LLM judge |
-| **Agent** | LangGraph Supervisor 라우팅, 도구 41종 전수 QA, MS Agent Framework 포팅 검증(26커밋) 후 프레임워크 채택 의사결정 |
-| **Product** | AI 블로그 자동화 플랫폼, 딜러용 운영 웹 콘솔, 대용량 시계열 수집·서빙 파이프라인(1.9억 행) |
+| **Platform** | Moved a hand-installed cluster to k3s + ArgoCD GitOps (28 Applications Synced & Healthy); 8 CI deploy gates plus a 36-item self-test of the gates themselves |
+| **LLM serving** | vLLM on KubeRay; swapped models 4 times on measured evidence; model load time 221 s → 53 s (4.12×); node-to-node image transfer 87 s → under 1 s |
+| **RAG & evaluation** | RAGFlow-based RAG, a 460-question golden set, Langfuse traces and scores, and a dedicated LLM judge separated from the serving model |
+| **Agents** | LangGraph supervisor routing, full QA of 41 tools, and a framework port (26 commits) used to make an adoption decision |
+| **Products** | AI blog-automation platform, operator web console, and a 190M-row time-series pipeline |
 
 ## 🛠 Tech Stack
 
-**자주 쓰는 도구**
+<div align="center">
 
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
@@ -36,17 +57,49 @@
 ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Redis](https://img.shields.io/badge/-Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 
-| 구분 | 스택 |
-|---|---|
-| **AI / LLM** | vLLM · LangGraph · MS Agent Framework · RAGFlow · BGE-M3 · Whisper · LiveKit · MCP · Langfuse · MLflow |
-| **Platform** | Kubernetes(k3s) · ArgoCD · Helm · Kustomize · KubeRay · Kueue · Argo Workflows · Cilium · Docker |
-| **Observability · CI** | Prometheus · Grafana · Loki · Alertmanager · GitLab CI · GitHub Actions · conftest(OPA) · pytest |
-| **Backend · Data** | FastAPI · Node.js · PostgreSQL(pgvector) · Redis · Elasticsearch · MinIO · Supabase · Prisma |
-| **Frontend** | Next.js · React · Tailwind CSS · React Native |
-| **Cloud** | GCP(Vertex AI) · AWS(EC2/S3) · Vercel · Cloudflare · Nginx |
+</div>
+
+![AI](https://img.shields.io/badge/AI-vLLM-informational?style=flat&logoColor=white&color=2563EB)
+![AI](https://img.shields.io/badge/AI-LangGraph-informational?style=flat&logo=langchain&logoColor=white&color=2563EB)
+![AI](https://img.shields.io/badge/AI-MS_Agent_Framework-informational?style=flat&logoColor=white&color=2563EB)
+![AI](https://img.shields.io/badge/AI-RAGFlow-informational?style=flat&logoColor=white&color=2563EB)
+![AI](https://img.shields.io/badge/AI-Langfuse-informational?style=flat&logoColor=white&color=2563EB)
+![AI](https://img.shields.io/badge/AI-MLflow-informational?style=flat&logo=mlflow&logoColor=white&color=2563EB)
+![AI](https://img.shields.io/badge/AI-MCP-informational?style=flat&logoColor=white&color=2563EB)
+
+![Platform](https://img.shields.io/badge/Platform-k3s-informational?style=flat&logo=k3s&logoColor=white&color=0F766E)
+![Platform](https://img.shields.io/badge/Platform-Helm-informational?style=flat&logo=helm&logoColor=white&color=0F766E)
+![Platform](https://img.shields.io/badge/Platform-KubeRay-informational?style=flat&logoColor=white&color=0F766E)
+![Platform](https://img.shields.io/badge/Platform-Kueue-informational?style=flat&logoColor=white&color=0F766E)
+![Platform](https://img.shields.io/badge/Platform-Argo_Workflows-informational?style=flat&logo=argo&logoColor=white&color=0F766E)
+![Platform](https://img.shields.io/badge/Platform-Docker-informational?style=flat&logo=docker&logoColor=white&color=0F766E)
+
+![Observability](https://img.shields.io/badge/Observability-Prometheus-informational?style=flat&logo=prometheus&logoColor=white&color=B45309)
+![Observability](https://img.shields.io/badge/Observability-Grafana-informational?style=flat&logo=grafana&logoColor=white&color=B45309)
+![Observability](https://img.shields.io/badge/Observability-Loki-informational?style=flat&logo=grafana&logoColor=white&color=B45309)
+![CI](https://img.shields.io/badge/CI-GitLab_CI-informational?style=flat&logo=gitlab&logoColor=white&color=B45309)
+![CI](https://img.shields.io/badge/CI-GitHub_Actions-informational?style=flat&logo=githubactions&logoColor=white&color=B45309)
+![CI](https://img.shields.io/badge/CI-OPA_conftest-informational?style=flat&logo=openpolicyagent&logoColor=white&color=B45309)
+
+![Data](https://img.shields.io/badge/Data-pgvector-informational?style=flat&logo=postgresql&logoColor=white&color=7C3AED)
+![Data](https://img.shields.io/badge/Data-Elasticsearch-informational?style=flat&logo=elasticsearch&logoColor=white&color=7C3AED)
+![Data](https://img.shields.io/badge/Data-MinIO-informational?style=flat&logo=minio&logoColor=white&color=7C3AED)
+![Data](https://img.shields.io/badge/Data-Supabase-informational?style=flat&logo=supabase&logoColor=white&color=7C3AED)
+![Data](https://img.shields.io/badge/Data-Prisma-informational?style=flat&logo=prisma&logoColor=white&color=7C3AED)
+
+![Web](https://img.shields.io/badge/Web-React-informational?style=flat&logo=react&logoColor=white&color=2563EB)
+![Web](https://img.shields.io/badge/Web-Tailwind_CSS-informational?style=flat&logo=tailwindcss&logoColor=white&color=2563EB)
+![Web](https://img.shields.io/badge/Web-Node.js-informational?style=flat&logo=nodedotjs&logoColor=white&color=2563EB)
+![Web](https://img.shields.io/badge/Web-React_Native-informational?style=flat&logo=react&logoColor=white&color=2563EB)
+
+![Cloud](https://img.shields.io/badge/Cloud-Google_Cloud-informational?style=flat&logo=googlecloud&logoColor=white&color=0F766E)
+![Cloud](https://img.shields.io/badge/Cloud-AWS-informational?style=flat&logoColor=white&color=0F766E)
+![Cloud](https://img.shields.io/badge/Cloud-Vercel-informational?style=flat&logo=vercel&logoColor=white&color=0F766E)
+![Cloud](https://img.shields.io/badge/Cloud-Cloudflare-informational?style=flat&logo=cloudflare&logoColor=white&color=0F766E)
+![Cloud](https://img.shields.io/badge/Cloud-Nginx-informational?style=flat&logo=nginx&logoColor=white&color=0F766E)
 
 <details>
-<summary>그 외 사용 경험</summary>
+<summary>Also used</summary>
 
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
@@ -59,16 +112,15 @@
 ![Kali Linux](https://img.shields.io/badge/-Kali_Linux-557C94?style=flat-square&logo=kali-linux&logoColor=white)
 ![Postman](https://img.shields.io/badge/-Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
 ![WebStorm](https://img.shields.io/badge/-WebStorm-000000?style=flat-square&logo=webstorm&logoColor=white)
-![GitLab](https://img.shields.io/badge/-GitLab-FCA121?style=flat-square&logo=gitlab&logoColor=white)
 
 </details>
 
-## 📊 GitHub
+## 📊 GitHub Stats
 
 <div align="center">
 
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=Jeff0327&show_icons=true&theme=radical&hide_border=true&count_private=true)
-![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Jeff0327&layout=compact&theme=radical&hide_border=true&langs_count=6)
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=Jeff0327&show_icons=true&hide_border=true&count_private=true&title_color=60A5FA&text_color=CBD5E1&icon_color=2563EB&bg_color=0F172A)
+![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Jeff0327&layout=compact&hide_border=true&langs_count=6&title_color=60A5FA&text_color=CBD5E1&bg_color=0F172A)
 
 </div>
 
